@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 90px 30px;
+    width: 500px;
+    color: white;
+    margin:100px auto;
+    border-radius: 20px;
+    background: url(/login/img/bg.jpg);
+    box-shadow: 0px 0px 20px black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+fieldset{
+    border: 2px solid bisque;
+    border-radius: 10px;
+    padding: 20px;
+    backdrop-filter: blur(50px);
+}
+legend{
+    padding: 0 60px;
+    font-weight: bolder;
+    color: bisque;
+    font-size: 20px;
+}
+table{
+    width: 100%;
+    border-spacing: 15px;
+}
+label{
+    font-weight:600;
+}
+.input input{
+    width: 100%;
+    padding: 3px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+.input input:focus{
+    border-color: rgb(236, 227, 243);
+}
+button{
+    width: 100%;
+    padding: 10px;
+    background-color: burlywood;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 17px;
+    transition: background 0.3s;
+    margin-left: 90px;
+}
+
+button:hover{
+    background-color: black;
+}
+a{
+    text-decoration:none;
+    font-weight: bolder;
+    display: flex;
+    justify-content: end;
+}
+a:hover{
+    text-decoration: underline;
+    color: black;
+}
+h5{
+    margin-top: 15px;
+    font-weight: normal;
+    position: relative;
+    left: 60px;
+}
